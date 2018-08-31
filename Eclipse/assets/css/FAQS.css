@@ -1,0 +1,220 @@
+body {
+background-image: url("../img/shutterstock_138721493.jpg");
+background-size: cover;
+background-repeat: no-repeat; 
+background-attachment: fixed;    
+    
+
+    
+}
+    
+@font-face {
+    font-family: 'Mont';
+    src: url(assests/fonts/Montserrat-Regular.ttf);
+    font-style:normal;
+    font-weight: 100;
+    
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url(assets//fonts/Montserrat-SemiBold.ttf);
+    font-weight:600;
+}
+
+p, button, li{
+    font-family: Mont;
+    font-weight: 100;
+    
+}
+
+.sidenav {
+    height:100%; /* Full-height: remove this if you want "auto" height */
+    width: 190px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    background: rgba(0, 0, 0,0.5);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+hr
+{
+width: 80%;
+border-top: 0.5px solid white;
+}
+
+
+h1{
+    
+    color: white ;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+h3{
+    font-family: mont;
+    font-weight: 600;
+    color: black;
+    
+}
+
+h4{
+    text-align: left;
+    width: 40%;
+    font-size: 16px;
+    
+    
+}
+
+
+.sidenav a {
+    padding: 8px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background-color: grey;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+li{
+    display: inline-block;
+    margin-left: 3px;
+
+    
+}
+
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border: 1px solid black;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel{
+    
+    padding: 1px;
+    background-color: solid white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    position: relative;
+}
+
+}
+
+
+    
+}
+
+li{
+    display: inline-block;
+    margin-left: 3px
+}
+
+
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    z-index: 1;
+}
+
+page-footer {
+  background-color: black;
+
+}
+
+
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: content-box;
+    margin-left: 190px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 100vh;
+    position:fixed;
+
+}
+
+form {
+
+  width: 60%;
+  margin: auto;
+}
+
+
+    
+.responsive-img { 
+   
+width: 10%;
+}
+    
+.img-faq{
+    padding: 10px;
+    float: right; 
+}
+a{
+    color: white;
+    
+}
+
+p{
+    border: 2px;
+    
+}
