@@ -1,27 +1,70 @@
 <!doctype html>
 <html>
     <head>
-    <title>ECLIPSE</title>
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>ECLIPSE</title>
+            <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/join.css">
-    </head>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="assets/css/join.css">
+        </head>
+
     <body class="join-container">    
-        <div class="join-sidnav sidenav sidenav-container">
-          <div> <img class="img-responsive" src="assets/img/Eclipse_v1_logo_DK%20copy.png" width="200" height="200"></div>
-            <a href="about.html">ABOUT ECLIPSE </a>
-            <a href="Our_goals.html">OUR GOALS</a>
-            <a href="join.html">JOIN ECLIPSE</a>
-            <a href="FAQS.html">FAQ</a>
-            <a href="Contact.html">CONTACT US</a>   
-            <hr>
-            <h2>FOLLOW US</h2>
-<li><a class= "social-brand" href=“#”> <img src="assets/icons/icons8-instagram-50.png" width="22" height="22"></a></li>
-<li><a class= "social-brand" href=“#”> <img src="assets/icons/icons8-facebook-50.png" width="22" height="22" ></a></li>
-<li><a class= "social-brand" href=“#”> <img src="assets/icons/icons8-twitter-50.png"  width="22" height="22"></a></li>  
-        </div>
+        <div class="nav-side-menu">
+    <div class="brand">
+      <a href="index.html"><img class="img-responsive" src="assets/img/Eclipse_v1_logo_DK%20copy.png" width="250" height="250" align="middle"></a>
+    </div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="about.html">
+                    ABOUT ECLIPSE
+                  </a>
+                </li>
+                 <li>
+                  <a href="/Our_goals.html">
+                    OUR GOALS
+                  </a>
+                  </li>
+                 <li>
+                  <a href="join.html">
+                    JOIN ECLIPSE
+                  </a>
+                </li>
+                 <li>
+                  <a href="FAQS.html"> 
+                    FAQ
+                  </a>
+                  </li>
+                 <li>
+                  <a href="Contact.html">
+                    CONTACT US
+                  </a>
+                </li>
+              <hr>
+                <li class="social-media-container">
+                  <a class="social-media-a" href="#">
+                    <i class="fa fa-facebook pr-1"></i>
+                  </a>
+                  <a class="social-media-a" href="#">
+                   <i class="fa fa-instagram"></i>
+                  </a>
+                  <a class="social-media-a" href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+            </ul>
+     </div>
+</div>
         <div class="body-container">
             <div class="jumbotron">
                 <h3>JOIN ECLIPSE</h3>      
@@ -36,12 +79,20 @@
      <input type="company-email" class="form-control" id="join-email" placeholder="COMPANY EMAIL" name="companyemail">
     </div>
     <div class="form-group">
-     <input type="carbon" class="form-control" id="join-reduction" placeholder="SUSTAINABILITY" name="carbonreduction">
+<!--     <input type="carbon" class="form-control" id="join-reduction" placeholder="SUSTAINABILITY" name="carbonreduction">-->
+        
+        <select name="goals">
+    <option value=""> GOALS</option>
+    <option >WATER STEWARDSHIP</option>
+    <option >CLIMATE ACTION</option>
+    <option >CIRCULAR PACKAGING</option>
+    <option >HUMAN RIGHTS</option>
+  </select>
     </div>
       <div class="form-group">
-     <input type="goal" class="form-control" id="join-goal" placeholder="HOW WILL YOU ACHIEVE THIS GOAL?" name="goal">
+     <input type="achieve" class="form-control" id="join-goal" placeholder="HOW WILL YOU ACHIEVE THIS GOAL?" name="achieve">
     </div>
-    <button type="submit" class="btn btn-primary">SET TARGET</button>
+    <button type="submit" class="btn btn-primary">JOIN US</button>
   </form>
 </div>
 

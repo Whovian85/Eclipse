@@ -1,147 +1,83 @@
-body {
-background-image: url("../img/shutterstock_138721493.jpg");
-background-size: cover;
-background-repeat: no-repeat; 
-background-attachment:inherit;    
-    
 
-    
-}
-    
-@font-face {
-    font-family: 'montsemibold';
-    src: url(assets//fonts/Montserrat-SemiBold.ttf);
-    font-weight:600;
-}
 
-@font-face {
-    font-family: 'montregular';
-    src: url(assets//fonts/Montserrat-Regular.ttf);
-    font-weight:100;
-}
-
-@font-face {
-    font-family: 'montthin'; 
-    src: url(assets//fonts/Montserrat-Thin.ttf);
-    font-weight:100;
-}
-
-@font-face {
-    font-family: 'montlight';
-    src: url(assets//fonts/Montserrat-Light.ttf);
-    font-weight:100;
-}
 @font-face {
     font-family: 'abinbev';
     src: url(assets//fonts/ABInBevHeadlines.ttf);
     font-weight:100;
 }
-h3{
-    font-family: abinbev;
-    font-weight: bold;
+
+body {
+    background-image: url("../img/shutterstock_138721493.jpg");
+   background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+
+    
+}
+     
+
+
+
+.col-goals{
+  font-family: abinbev;
+
 }
 
+.col-goals-water{
+  font-family: abinbev;
+  font-size: 20px;
 
+}
 
-
-
-
-/* The navigation menu links */
+.modal-title{
+  font-family: abinbev;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
 hr
 {
 width: 80%;
 border-top: 0.5px solid white;
+
 }
 
-
-h1{
-    color: white ;
+h1 {
+    
+    color: white;
+        
 }
 
 h2{
     color: white;
     text-align: center;
     font-size: 12px;
-    font-family: montlight;
 }
+
+h3{
+  color: black;
+  font-family: abinbev;
+  font-weight: bold;
+}
+
+h5{
   
-    
+}
+p {
+  font-family: abinbev;
+  font-size: 20px;
+  padding-bottom: 9px;
+}
+
+
+
 li{
     display: inline-block;
-    margin-left: 3px
-}
+    margin-left: 3px;
 
-
-
-
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
-    z-index: 1;
-}
-
-page-footer {
-  background-color: black;
-
-}
-
-
-
-.jumbotron {
-    background: rgba(255, 255, 255, 0.8);
-    box-sizing: content-box;
-    margin-left: 300px;
-    margin-right: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    min-height: 100vh;
-   
     
 }
 
-form {
-
-  width: 60%;
-  margin: auto;
-}
-
-.btn, btn-info {
-    background-color: orange;
-}
-    
-.responsive-img { 
-   
-width: 10%;
-}
-
-.img-responsive{
-    padding: 10px;
-    
-}
-    
-/*
-.about-us-img{
-  display: flex;
-  width: 600px;
-  height: 600px;
-    
-}
-*/
-a{
-    color: white;
-    
-}
-
-p{
-    font-family: montregular;
-    font-weight: 100;
-    font-size: 20px;
-}
 .nav-side-menu {
   overflow: auto;
   font-family: abinbev;
@@ -265,4 +201,89 @@ p{
 .social-media-container .social-media-a i {
   padding-left: 0;
   padding-right: 0;
+}
+
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    z-index: 1;
+}
+
+page-footer {
+  background-color: black;
+
+}
+
+.responsive-img {
+    width: 10%;
+    
+    
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: content-box;
+    margin-left: 300px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    min-height: 100vh;
+
+}
+
+form {
+
+  width: 60%;
+  margin: auto;
+}
+
+.modal-content{
+  background-color:#6b7fa0;
+  background: rgba(0, ., 255, 0.8);
+  color: white;
+}
+
+.btn, button {
+    background-color: orange !important;
+    border-radius: 12px;
+    background-attachment: fixed;
+}
+
+.image-button {
+    padding: 0;
+}
+
+.image-button img {
+    border-radius: 12px;
+}
+
+.our-goal-modal .modal-dialog {
+    max-width: 950px;
+    border-radius: 12px;
+}
+
+.water-shed-modal-image {
+    width: 100%;
+}
+
+.climate-shed-modal-image {
+  width: 100%;
+}
+
+.smart-shed-modal-image {
+  width: 100%;
+}
+
+.package-shed-modal-image {
+  width: 100%;
+}
+
+.human-shed-modal-image {
+  width: 100%;
 }

@@ -1,12 +1,12 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "harold.stewart@zx-ventures.com";
+$myemail  = "harold.stewart1011@gmail.com";
 
 /* Check all form inputs using check_input function */
 $company = check_input($_POST['company']);
 $companyemail   = check_input($_POST['companyemail']);    
-$carbonreduction = check_input($_POST['carbonreduction']);
-$goal = check_input($_POST['goal']);
+$goals = check_input($_POST['goals']);
+$achieve = check_input($_POST['achieve']);
 
 
 /* If e-mail is not valid show error message */
@@ -29,8 +29,8 @@ Your contact form has been submitted by:
 
 COMPANY NAME: $company
 COMPANY EMAIL: $companyemail
-SUSTAINABILITY: $carbonreduction
-HOW WILL YOU ACHIEVE THIS GOAL?: $goal
+GOALS: $goals
+HOW WILL YOU ACHIEVE THIS GOAL?: $achieve
 
 
 
