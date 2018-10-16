@@ -4,6 +4,15 @@
   font-weight:100;
 }
 
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+}
+
+
+
+
 body {
   background-image: url("../img/shutterstock_138721493.jpg");
   background-size: cover;
@@ -24,7 +33,7 @@ body {
   font-weight: bold;
 }
 
-hr {
+hr { 
   width: 80%;
   border-top: 0.5px solid white;
 }
@@ -44,7 +53,7 @@ h3 {
 }
 
 p {
-  font-family: abinbev;
+  font-family: arial;
   font-size: 20px;
   padding-bottom: 9px;
 }
