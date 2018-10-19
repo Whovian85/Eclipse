@@ -13,13 +13,20 @@ body {
 
  
 
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+}
+
+
 
 
 /* The navigation menu links */
 hr
 {
 width: 80%;
-border-top: 0.5px solid white;
+border-top: 0.5px solid white; 
 }
 
 h1 {
@@ -36,11 +43,12 @@ p{
   font-family: abinbev;
   font-size: 30px;
   font-weight: bold;
+    color: white
 }
 
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;

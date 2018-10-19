@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'abinbev';
+  src: url(assets//fonts/ABInBevHeadlines.ttf);
+  font-weight:100;
+}
+
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+} 
+
+
+
+
 
 body {
     background-image: url("../img/shutterstock_138721493.jpg");
@@ -32,7 +47,7 @@ h3{
 }
 
 p{
-  font-family: abinbev;
+  font-family: arial;
   font-size: 20px;
   padding-bottom: 30px;
 }
@@ -46,7 +61,7 @@ li{
 }
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;
@@ -199,7 +214,7 @@ page-footer {
     margin-top: 1px;
     margin-bottom: 1px;
     min-height: 100vh;
-    position: fixed;
+    position: 3vw 6rem;
 }
 
 form {

@@ -15,13 +15,23 @@ background-attachment: fixed;
 }
 
 
+
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+}
+
+
+ 
+
 p, button, li{
-    font-family: abinbev;
+    font-family: arial;
     font-weight: 100;
     
 } 
 
-
+ 
 /* The navigation menu links */
 hr
 {
@@ -62,7 +72,7 @@ li{
 
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;
@@ -186,7 +196,7 @@ li{
 }
 
 .accordion {
-    font-family: abinbev;
+    font-family: arial;
     background-color: gray;
     color: black;
     cursor: pointer;

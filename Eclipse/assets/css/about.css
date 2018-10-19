@@ -8,34 +8,20 @@ background-attachment:inherit;
     
 }
     
-@font-face {
-    font-family: 'montsemibold';
-    src: url(assets//fonts/Montserrat-SemiBold.ttf);
-    font-weight:600;
-}
 
-@font-face {
-    font-family: 'montregular';
-    src: url(assets//fonts/Montserrat-Regular.ttf);
-    font-weight:100;
-}
-
-@font-face {
-    font-family: 'montthin'; 
-    src: url(assets//fonts/Montserrat-Thin.ttf);
-    font-weight:100;
-}
-
-@font-face {
-    font-family: 'montlight';
-    src: url(assets//fonts/Montserrat-Light.ttf);
-    font-weight:100;
-}
 @font-face {
     font-family: 'abinbev';
     src: url(assets//fonts/ABInBevHeadlines.ttf);
     font-weight:100;
 }
+
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+}
+
+
 h3{
     font-family: abinbev;
     font-weight: bold;
@@ -62,7 +48,7 @@ h2{
     color: white;
     text-align: center;
     font-size: 12px;
-    font-family: montlight;
+    font-family: arial;
 }
   
     
@@ -138,13 +124,13 @@ a{
 }
 
 p{
-    font-family: montregular;
+    font-family: arial;
     font-weight: 100;
     font-size: 20px;
 }
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;

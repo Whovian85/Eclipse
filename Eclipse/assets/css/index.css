@@ -1,14 +1,28 @@
 .eclipse-watermark {
     background: url(..//img/EclipseFin.png);
     background-repeat: no-repeat;
-
     background-position: center;
     display: block;
     height: 100%;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
+
+
+@font-face {
+  font-family: 'abinbev';
+  src: url(assets//fonts/ABInBevHeadlines.ttf);
+  font-weight:100;
+}
+
+@font-face {
+  font-family: 'arial';
+  src: url(assets//fonts/Arial.ttf);
+  font-weight:100;
+} 
+
+
 
 .carousel-image-container {
     height: 100vh;
@@ -29,7 +43,7 @@ hr
 {
 width: 80%;
 border-top: 0.5px solid white;
-
+ 
 }
 
 
@@ -58,7 +72,7 @@ page-footer {
 
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;
