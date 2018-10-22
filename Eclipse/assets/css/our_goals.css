@@ -20,6 +20,13 @@ body {
   background-attachment: fixed;
 }
 
+
+
+p {
+  font-family: arial;
+  font-size: 18px;
+}
+
 .col-goals { font-family: abinbev; }
 
 .col-goals-water {
@@ -52,11 +59,6 @@ h3 {
   font-weight: bold;
 }
 
-p {
-  font-family: arial;
-  font-size: 20px;
-  padding-bottom: 9px;
-}
 
 li {
   display: inline-block;
@@ -65,7 +67,7 @@ li {
 
 .nav-side-menu {
   overflow: auto;
-  font-family: abinbev;
+  font-family: arial;
   font-size: 18px;
   font-weight: 200;
   background-color: #2e353d;
@@ -184,7 +186,7 @@ page-footer { background-color: black; }
   padding: 3vw 6rem;
 }
 
-.jumbotron p { font-size: 1.5vw; }
+/*.jumbotron p { font-size: 1.2vw; }*/
 
 .jumbotron .col {
   padding-left: 0.5vw;
