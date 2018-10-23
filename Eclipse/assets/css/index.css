@@ -22,11 +22,14 @@
   font-weight:100;
 } 
 
-
-
-.carousel-image-container {
-    height: 100vh;
+/*
+body {
+  margin: 0px;
+  padding: 0px;
 }
+*/
+
+
 
 @font-face {
     font-family: 'abinbev';
@@ -37,7 +40,13 @@
 
 
 
+body{height:100%;}
 
+
+.carousel-image-container {
+    height: 100%;
+        
+}
 
 hr
 {
@@ -151,7 +160,7 @@ page-footer {
   .nav-side-menu {
     position: relative;
     width: 100%;
-    margin-bottom: 10px;
+/*    margin-bottom: 10px;*/
   }
   .nav-side-menu .toggle-btn {
     display: block;
@@ -177,11 +186,7 @@ page-footer {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
-}
-body {
-  margin: 0px;
-  padding: 0px;
-}
+
 
 .social-media-container {
   display: flex;
