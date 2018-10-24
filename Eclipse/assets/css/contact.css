@@ -1,7 +1,9 @@
 body {
     background-image: url("../img/shutterstock_138721493.jpg");
-   background-size: cover;
     background-repeat: no-repeat; 
+    background-size:cover;
+    background-attachment: fixed;
+    
 }
     
 @font-face {
@@ -123,6 +125,13 @@ p{
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
+
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block;
+  }
+}
+
 @media (max-width: 767px) {
   .nav-side-menu {
     position: relative;
@@ -147,11 +156,6 @@ p{
     font-size: 22px;
     padding-left: 20px;
     line-height: 50px !important;
-  }
-}
-@media (min-width: 767px) {
-  .nav-side-menu .menu-list .menu-content {
-    display: block;
   }
 }
 
@@ -195,6 +199,15 @@ footer {
     z-index: 1;
 }
 
+.page-footer {
+  background-color: black;
+
+}
+.responsive-img { 
+   width: 10%;
+}
+
+
 form {
   width: 50%;
   margin: auto;
@@ -216,14 +229,4 @@ p {
 }
 
 
-
-.responsive-img { 
-   
-width: 10%;
-}
-
-.page-footer {
-  background-color: black;
-
-}
 

@@ -221,6 +221,7 @@ form {
     width: 100%;
     margin-bottom: 10px;
   }
+    
   .nav-side-menu .toggle-btn {
     display: block;
     cursor: pointer;
@@ -234,6 +235,7 @@ form {
     width: 40px;
     text-align: center;
   }
+    
   .brand {
     text-align: left !important;
     font-size: 22px;

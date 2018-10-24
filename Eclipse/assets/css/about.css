@@ -1,13 +1,3 @@
-body {
-background-image: url("../img/shutterstock_138721493.jpg");
-background-size: cover;
-background-repeat: no-repeat; 
-background-attachment:inherit;    
-    
-
-    
-}
-    
 
 @font-face {
     font-family: 'abinbev';
@@ -20,6 +10,15 @@ background-attachment:inherit;
   src: url(assets//fonts/Arial.ttf);
   font-weight:100;
 }
+
+body {
+background-image: url("../img/shutterstock_138721493.jpg");
+background-size: cover;
+background-repeat: no-repeat; 
+background-attachment:inherit;    
+       
+}
+    
 
 
 h3{
@@ -60,56 +59,16 @@ li{
 
 
 
-footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: black;
-   color: white;
-   text-align: center;
-    z-index: 1;
-}
-
-page-footer {
-  background-color: black;
-
-}
-
-
-
-.jumbotron {
-    background: rgba(255, 255, 255, 0.8);
-    box-sizing: content-box;
-    margin-left: 300px;
-    margin-right: 1px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    min-height: 100vh;
-   
-    
-}
-
-form {
-
-  width: 60%;
-  margin: auto;
-}
-
-.btn, btn-info {
-    background-color: orange;
-}
-    
-.responsive-img { 
-   
-width: 10%;
-}
 
 .img-responsive{
     padding: 10px;
-    
 }
     
+.btn, btn-info {
+    background-color: orange;
+    padding: 1%;  
+}
+  
 /*
 .about-us-img{
   display: flex;
@@ -205,32 +164,8 @@ p{
   -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
-@media (max-width: 767px) {
-  .nav-side-menu {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .nav-side-menu .toggle-btn {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    z-index: 10 !important;
-    padding: 3px;
-    background-color: #ffffff;
-    color: #000;
-    width: 40px;
-    text-align: center;
-  }
-  .brand {
-    text-align: left !important;
-    font-size: 22px;
-    padding-left: 20px;
-    line-height: 50px !important;
-  }
-}
+
+
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
@@ -252,3 +187,85 @@ p{
   padding-left: 0;
   padding-right: 0;
 }
+      
+      footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+    z-index: 1;
+}
+      \
+page-footer {
+  background-color: black;
+
+}
+
+.responsive-img { width: 10%;}
+      
+
+    
+    .jumbotron {
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: content-box;
+    margin-left: 300px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    min-height: 100vh;
+    padding: 3vw 6rem; 
+}
+      
+       form {
+
+  width: 60%;
+  margin: auto;
+}
+
+  
+
+  .nav-side-menu {
+    margin-bottom: 0;
+  }
+
+    
+      
+      @media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+    
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+    
+  .brand {
+    text-align: left !important;
+    font-size: 22px;
+    padding-left: 20px;
+    line-height: 50px !important;
+  }
+
+.jumbotron { 
+    margin-left: 0;
+    padding: 0 30px;;
+    text-align: center;
+  }
+
+   
+  

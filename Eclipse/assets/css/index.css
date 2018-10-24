@@ -43,16 +43,11 @@ body {
 body{height:100%;}
 
 
-.carousel-image-container {
-    height: 100%;
-        
-}
+.carousel-image-container {height: 100%;}
 
-hr
-{
+hr{
 width: 80%;
 border-top: 0.5px solid white;
- 
 }
 
 
@@ -73,9 +68,7 @@ page-footer {
 
 }
 
-.responsive-img {
-    width: 10%;
-}
+.responsive-img {width: 10%;}
 
 
 
@@ -131,10 +124,8 @@ page-footer {
   background-color: #4f5b69;
 }
 
-.nav-side-menu li {
-  padding-left: 0px;
+.nav-side-menu li {padding-left: 0px;}
 
-}
 .nav-side-menu li a {
   display: block;
   width: 100%;
