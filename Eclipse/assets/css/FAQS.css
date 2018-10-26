@@ -186,7 +186,9 @@ page-footer {
 
 }
 
+
 .responsive-img { width: 10%;}
+
 
 .accordion {
     font-family: arial;
@@ -194,13 +196,14 @@ page-footer {
     color: black;
     cursor: pointer;
     padding: 1px;
-    width: 50%;
+    width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
     border: 1px solid black;
+    
 }
 
 .active, .accordion:hover {background-color: #ccc;}
@@ -246,7 +249,8 @@ margin: auto;
 }
 */
 
-.img-faq{padding: 10px;float: right; }
+.img-faq{
+    padding: 1px; }
 
 
 .nav-side-menu {
@@ -259,6 +263,10 @@ margin: auto;
     width: 100%;
     margin-bottom: 10px;
   }
+    
+    .accordion{
+        width: 100%;
+    }
     
   .nav-side-menu .toggle-btn {
     display: block;
@@ -282,4 +290,5 @@ margin: auto;
 
  .jumbotron {
         margin-left: 0;
+        height: 100%;
     }
