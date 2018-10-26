@@ -32,13 +32,7 @@ h3{
 
 
 /* The navigation menu links */4
-hr
-{
-width: 80%;
-border-top: 0.5px solid white;
-}
 
- 
 h1{
     color: white ;
 }
@@ -57,16 +51,28 @@ li{
 }
 
 
-
+.about-us-img{
+    height: 400px;
+    width: 500px;
+    
+}
 
 
 .img-responsive{
     padding: 10px;
+    
 }
     
+hr{
+width: 80%;
+border-top: 0.5px solid white;
+}
+
+ 
 .btn, btn-info {
     background-color: orange;
     padding: 1%;  
+    
 }
   
 /*
