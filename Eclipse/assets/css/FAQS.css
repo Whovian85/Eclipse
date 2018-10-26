@@ -226,6 +226,7 @@ page-footer {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     position: relative;
+    border-style: hidden
 }
 
 .jumbotron {
@@ -235,7 +236,7 @@ page-footer {
     margin-right: 1px;
     margin-top: 1px;
     margin-bottom: 1px;
-    height: 150vh;
+    height: 200vh;
    min-height: 100vh;
     position: 3vw 6rem;
 }
@@ -249,6 +250,13 @@ margin: auto;
 }
 */
 
+.img-repsonsive{
+    padding: 5px; 
+    width: 100%;
+/*    resize: both;*/
+/*    overflow: auto;*/
+    
+}
 .img-faq{
     padding: 1px; }
 
