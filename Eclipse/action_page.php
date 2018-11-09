@@ -9,6 +9,8 @@ $phone = check_input($_POST['phone'], "Enter your phone");
 $email    = check_input($_POST['email']);
 $comments = check_input($_POST['comments'], "Write your comments");
 
+$subject = "Eclipse Contact";
+
 /* If e-mail is not valid show error message */
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
 {
