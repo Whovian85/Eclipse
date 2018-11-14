@@ -2,7 +2,7 @@
 
 
 /* Set e-mail recipient */
-$myemail  = "harold.stewart@zx-ventures.com";
+$myemail  = "vircovo@gmail.com";
 
 /* Check all form inputs using check_input function */
 $name = $_POST['name'];
