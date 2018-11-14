@@ -1,4 +1,6 @@
 <?php
+require './aws.phar';
+
 /* Set e-mail recipient */
 $myemail  = "eclipse@ab-inbev.com, vircovo@gmail.com, harold.stewart@zx-ventures.com";
 
@@ -28,7 +30,7 @@ if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
 /* Let's prepare the message for the e-mail */
 $message = "Hello!
 
-Your contact form has been submitted by:
+Your Join form has been submitted by:
 
 COMPANY NAME: $company
 COMPANY EMAIL: $companyemail

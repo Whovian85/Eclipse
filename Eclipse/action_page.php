@@ -1,6 +1,18 @@
 <?php
+
+   require './aws.phar';
+
+use Aws\Ses\SesClient;
+use Aws\Exception\AwsException;
+
+
+$SesClient = new SesClient([
+    'profile' => 'default',
+    'version' => '2010-12-01',
+    'region'  => 'us-west-2'
+]);
 /* Set e-mail recipient */
-$myemail  = "eclipse@ab-inbev.com, vircovo@gmail.com, harold.stewart@zx-ventures.com";
+$myemail  = "harold.stewart@zx-ventures.com";
 
 /* Check all form inputs using check_input function */
 $name = $_POST['name'];
