@@ -1,5 +1,4 @@
 <?php
-require './aws.phar';
 
 /* Set e-mail recipient */
 $myemail  = "eclipse@ab-inbev.com, vircovo@gmail.com, harold.stewart@zx-ventures.com";
