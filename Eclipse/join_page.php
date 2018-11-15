@@ -22,7 +22,7 @@ if (!preg_match("/([\w\-\.]+\@[\w\-]+\.[\w\-]+)/", $companyemail))
 if (!preg_match("/^(https?:\/\/+[\w\-]+\.[\w\-]+)/i", $website))
 {
     $website = '';
-//}
+}
 # Include the Autoloader (see "Libraries" for install instructions)
 
 
